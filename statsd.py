@@ -35,7 +35,7 @@ class DogStatsd(object):
         self.socket = None
         self.max_buffer_size = max_buffer_size
         self._send = self._send_to_server
-        self.connect(host, port)
+        #self.connect(host, port)
         self.encoding = 'utf-8'
 
 
